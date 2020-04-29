@@ -10,8 +10,8 @@ char ch;
 int tmp;
 while(ss >> tmp) {      //cin >> a;  "23,4,56"
     result.push_back(tmp);// 23 
-    ss >> ch; 
-          }          //??
+    ss >> ch;           //temporary character to store the commas
+          }          
 return result;
 }
 int main() 
