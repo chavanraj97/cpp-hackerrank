@@ -1,0 +1,28 @@
+vector<int> input;
+	similar to array but doesn't require size of it at runtime
+		vector_name.pushback(variable) // the value of the variable goes into the first index of vector 
+
+
+
+
+getline(cin,str_var_name)
+	get string input from user and put it into the variable str_var_name
+
+
+
+stringstream ss_name
+	here we can concat varibles of different data types 
+		ss_name.str() to output the ss_name
+
+
+to overload the extraction(<<) operator
+	friend ostream &operator<<(ostream &output, Box &ref)
+	{
+		output << ref.var_1 << ' ' << ref.var_2 << ' ' << ref.var_3;		// var_1, var_2, var_3 are 3 variables
+		return output;
+	}
+
+
+
+
+
